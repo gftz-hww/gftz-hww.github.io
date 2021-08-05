@@ -37,9 +37,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
-    
     <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
+    
+    <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
   </entry>
   
@@ -176,9 +176,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
-    
     <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
+    
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
@@ -203,15 +203,15 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
+    <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
+    
     <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
     
-    <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
     <category term="Typora" scheme="http://gftz-hww.github.io/tags/Typora/"/>
-    
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
@@ -237,13 +237,13 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
+    <category term="virtualbox" scheme="http://gftz-hww.github.io/tags/virtualbox/"/>
     
     <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
     
-    <category term="virtualbox" scheme="http://gftz-hww.github.io/tags/virtualbox/"/>
-    
     <category term="树莓派" scheme="http://gftz-hww.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
     
   </entry>
   
