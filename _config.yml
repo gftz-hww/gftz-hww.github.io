@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: =just some blogs=
+title: hww's blogs
 subtitle: 'Hope to have what you need'
 description: 'This is my personal blogs, record some knowledge that I used.'
 keywords: Windows, Linux, github, C++
 author: JunYu Huang
-language: en
-timezone: 'China/shenzhen'
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -94,7 +94,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: pln
+# theme: pln
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
