@@ -6,7 +6,7 @@
   <link href="http://gftz-hww.github.io/atom.xml" rel="self"/>
   
   <link href="http://gftz-hww.github.io/"/>
-  <updated>2021-08-05T11:13:40.993Z</updated>
+  <updated>2021-08-06T02:24:15.729Z</updated>
   <id>http://gftz-hww.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-8-5/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-8-5/</id>
     <published>2021-08-05T09:46:58.154Z</published>
-    <updated>2021-08-05T11:13:40.993Z</updated>
+    <updated>2021-08-06T02:24:15.729Z</updated>
     
     <content type="html"><![CDATA[<p><strong>1、apt安装与卸载</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install software_name<span class="comment"># 下载软件</span></span><br><span class="line">sudo apt-get --purge remove software_name <span class="comment"># 删除软件及其配置</span></span><br><span class="line">sudo apt-get autoremove software_name <span class="comment"># 删除软件及其依赖环境</span></span><br></pre></td></tr></table></figure><p><strong>2、使用网线连接电脑和JetSon nano</strong></p><p>环境：电脑连接wifi</p><p>wifi -&gt; 网络和Internet设置 -&gt; 更改适配器选项 -&gt; 右击WLAN -&gt; 属性 -&gt; 共享 -&gt;开启共享</p><blockquote><p>若网络共享到虚拟机上则禁用虚拟机网络</p></blockquote>]]></content>
     
@@ -37,9 +37,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
-    
     <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
+    
+    <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
   </entry>
   
@@ -48,7 +48,7 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-8-4/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-8-4/</id>
     <published>2021-08-05T09:44:42.380Z</published>
-    <updated>2021-08-06T02:08:08.049Z</updated>
+    <updated>2021-08-06T02:18:32.937Z</updated>
     
     <content type="html"><![CDATA[<p><strong>1、使用hexo搭建个人博客</strong></p><ol><li>使用<em>npm</em>下载<em>hexo</em></li><li>使用<em>hexo</em>初始化一个文件夹并修改其 <em>_config.yml</em> 配置文件</li></ol><p><strong>2、下载hexo</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli<span class="comment"># 使用npm下载hexo</span></span><br><span class="line">npm install hexo-deploy-git --save <span class="comment"># 下载hexo部署到git上的插件</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># hexo使用说明</span></span><br><span class="line">hexo clean <span class="comment"># 清楚hexo生成的数据</span></span><br><span class="line">hexo g == hexo genera<span class="comment"># 使用hexo将source/_post下的markdown文件生成静态页面</span></span><br><span class="line">hexo s == hexo serve<span class="comment"># 使用hexo将静态页面以localhost:4000开启本地服务</span></span><br><span class="line">hexo d == hexo deploy <span class="comment"># 将hexo生成的静态页面部署到git上去，这个功能需要一下配置</span></span><br><span class="line">hexo g -d == hexo genera &amp; hexo dep</span><br></pre></td></tr></table></figure><p>_config.yml配置</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 第一处</span></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://gftz-hww.github.io</span><span class="comment"># 需要将该url修改为自己的git仓库</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line"><span class="comment"># 第二处</span></span><br><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/gftz-hww/gftz-hww.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span><span class="comment"># 选择上传的分支</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p><strong>3、选择使用主题</strong></p><p>修改_config.yml</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">pure</span></span><br></pre></td></tr></table></figure><p>主题下载：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/gaoryrt/hexo-theme-pln.git themes/pln<span class="comment"># 下载pln主题</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/cofess/hexo-theme-pure.git themes/pure<span class="comment"># 下载pure主题</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -75,7 +75,7 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-8-3/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-8-3/</id>
     <published>2021-08-05T09:44:42.377Z</published>
-    <updated>2021-08-06T02:15:31.221Z</updated>
+    <updated>2021-08-06T02:18:29.574Z</updated>
     
     <content type="html"><![CDATA[<h4 id="1、生成git密钥并配置"><a href="#1、生成git密钥并配置" class="headerlink" title="1、生成git密钥并配置"></a>1、生成git密钥并配置</h4><ol><li>首先需要配置<em>user.name</em>和<em>user.email</em>，配置完后即可生成密钥。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;junyu.huang&quot;</span><span class="comment"># 配置名称</span></span><br><span class="line">git config --global user.email <span class="string">&quot;gftz-hww@163.com&quot;</span><span class="comment"># 配置邮箱</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;gftz-hww@163.com&quot;</span><span class="comment"># 创建密钥</span></span><br></pre></td></tr></table></figure></li></ol><ol start="2"><li><p>生成的密钥在<em>C:/Users/User/.ssh</em>文件夹下的id_rsa.pub，将其配置在<em>GitHub</em>中的<em>SSH Keys</em>即可。</p><p><img src="https://gftz-hww.github.io//imgs/image-20210803172358661.png" alt="image-20210803172358661"></p></li></ol><h4 id="2、向新的仓库中推内容"><a href="#2、向新的仓库中推内容" class="headerlink" title="2、向新的仓库中推内容"></a>2、向新的仓库中推内容</h4><ol><li><p>初始化要推送的内容所在的文件空间。</p></li><li><p>链接到GitHub中的指定仓库。</p></li><li><p>向本地仓库添加内容。</p></li><li><p>推送本地仓库到远程仓库。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init <span class="comment"># 初始化要推送的内容所在的文件空间</span></span><br><span class="line">git remote add origin <span class="string">&quot;http://github.com/gftz-hww/WorkLogs.git&quot;</span><span class="comment"># 链接到GitHub中的指定仓库</span></span><br><span class="line"><span class="comment"># 向本地仓库添加内容</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;build a logs repository&quot;</span></span><br><span class="line">git push origin master<span class="comment"># 推送本地仓库到远程仓库</span></span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
@@ -100,7 +100,7 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-8-2/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-8-2/</id>
     <published>2021-08-05T09:44:42.373Z</published>
-    <updated>2021-08-06T02:14:58.388Z</updated>
+    <updated>2021-08-06T02:18:00.189Z</updated>
     
     <content type="html"><![CDATA[<p><strong>1、安装gitbook</strong></p><ol><li>安装nvm（nodejs版本管理工具）</li><li>下载对应版本的node.js</li><li>下载gitbook</li></ol><p><strong>2、安装nvm</strong></p><ol><li><a href="https://github.com/coreybutler/nvm-windows/releases">下载nvm包</a>，直接安装即可。</li></ol><p><img src="https://gftz-hww.github.io//imgs/image-20210803155845620.png" alt="image-20210803155845620"></p><p><strong>3、使用nvm安装nodejs</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">nvm ls available<span class="comment"># 查看可下载的nodejs本版</span></span><br><span class="line">nvm ls<span class="comment"># 查看以下载的nodejs版本，且可查看当前使用的nodejs版本</span></span><br><span class="line">nvm install 12.22.4<span class="comment"># 下载12.22.4版本的nodejs</span></span><br><span class="line">nvm use 12.22.4<span class="comment"># 使用12.22.4版本的nodejs，若没有标注使用哪个版本默认不使用</span></span><br><span class="line">nvm uninstall 12.22.4 <span class="comment"># 删除12.22.4版本的nodejs</span></span><br><span class="line">nvm v<span class="comment"># 查看nvm的版本</span></span><br><span class="line">node -v <span class="comment"># 查看node版本</span></span><br><span class="line">npm -v <span class="comment"># 查看npm版本</span></span><br></pre></td></tr></table></figure><p><strong>4、使用npm安装gitbook</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm install gitbook-cli -g<span class="comment"># 安装gitbook</span></span><br><span class="line">gitbook -V<span class="comment"># 查看gitbook版本</span></span><br><span class="line">gitbook init <span class="comment"># 初始化一个gitbook空间</span></span><br><span class="line">gitbook serve<span class="comment"># 开启gitbook服务</span></span><br><span class="line">gitbook install<span class="comment"># 下载book.json配置的插件</span></span><br><span class="line">gitbook build<span class="comment"># 生成静态w</span></span><br></pre></td></tr></table></figure><p><strong>5、book.json配置</strong></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;styles&quot;</span>: &#123;</span><br><span class="line">      <span class="attr">&quot;website&quot;</span>: <span class="string">&quot;styles/website.css&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;plugins&quot;</span>: [</span><br><span class="line">    <span class="string">&quot;chapter-fold&quot;</span>,</span><br><span class="line">    <span class="string">&quot;back-to-top-button&quot;</span>,</span><br><span class="line"><span class="string">&quot;splitter&quot;</span>,</span><br><span class="line"><span class="string">&quot;code&quot;</span>,</span><br><span class="line"><span class="string">&quot;local-video&quot;</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>6、插件使用</strong></p><p>local-video</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line">1、视频播放（需要配置website.css）</span><br><span class="line">.video-js&#123;</span><br><span class="line">height:100%,</span><br><span class="line">w</span><br><span class="line">&#125;</span><br><span class="line">*/</span><br><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">id</span>=<span class="string">&quot;my-video&quot;</span> <span class="attr">class</span>=<span class="string">&quot;video-js&quot;</span> <span class="attr">controls</span> <span class="attr">preload</span>=<span class="string">&quot;auto&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span></span></span><br><span class="line"><span class="tag"><span class="attr">poster</span>=<span class="string">&quot;&quot;</span> <span class="attr">data-setup</span>=<span class="string">&#x27;&#123;&quot;aspectRatio&quot;:&quot;16:9&quot;&#125;&#x27;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;../imgs/vedio/detect_encode.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&#x27;video/mp4&#x27;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -134,7 +134,7 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-7-30/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-7-30/</id>
     <published>2021-08-05T09:44:11.411Z</published>
-    <updated>2021-08-05T11:13:12.517Z</updated>
+    <updated>2021-08-06T02:18:23.916Z</updated>
     
     <content type="html"><![CDATA[<h2 id="7-30日志报告"><a href="#7-30日志报告" class="headerlink" title="7-30日志报告"></a>7-30日志报告</h2><p><strong>1、<em>linux</em>中打包好的<em>OpenCV</em>可直接放入别的系统中直接<code>sudo make install</code>即可</strong></p>]]></content>
     
@@ -160,7 +160,7 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-7-29/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-7-29/</id>
     <published>2021-08-05T09:44:11.404Z</published>
-    <updated>2021-08-05T10:46:50.341Z</updated>
+    <updated>2021-08-06T02:18:20.717Z</updated>
     
     <content type="html"><![CDATA[<p><strong>1、Linux录制GIF图</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:peek-developers/stable</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install peek</span><br><span class="line">peek <span class="comment"># 运行</span></span><br></pre></td></tr></table></figure><p><strong>2、VS设置Vim</strong></p><p>​    设置-&gt;扩展-&gt;Vim-&gt;setting.json</p><p>​    将vim下的导航直接复制到setting.json下即可。</p><p><strong>3、Vim快捷键</strong></p><table><thead><tr><th>快捷键</th><th>作用说明</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table><p><strong>4、知识累积</strong></p><ol><li>Ros中创建一个python文件需要为其初始化一个节点。</li><li>Jetson Nano烧入的系统是一个Linux系统。</li></ol>]]></content>
     
@@ -176,9 +176,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
-    
     <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
+    
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
@@ -203,15 +203,15 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
+    <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
+    
     <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
     
-    <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
     <category term="Typora" scheme="http://gftz-hww.github.io/tags/Typora/"/>
-    
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
@@ -237,13 +237,13 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
+    <category term="virtualbox" scheme="http://gftz-hww.github.io/tags/virtualbox/"/>
     
     <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
     
-    <category term="virtualbox" scheme="http://gftz-hww.github.io/tags/virtualbox/"/>
-    
     <category term="树莓派" scheme="http://gftz-hww.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
     
   </entry>
   
