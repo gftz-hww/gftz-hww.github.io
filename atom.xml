@@ -37,9 +37,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
-    
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
+    
+    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -48,9 +48,9 @@
     <link href="http://gftz-hww.github.io/2021/08/05/2021-8-4/"/>
     <id>http://gftz-hww.github.io/2021/08/05/2021-8-4/</id>
     <published>2021-08-05T09:44:42.380Z</published>
-    <updated>2021-08-05T10:54:32.176Z</updated>
+    <updated>2021-08-06T02:06:11.834Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>1、使用hexo搭建个人博客</strong></p><ol><li>使用<em>npm</em>下载<em>hexo</em></li><li>使用<em>hexo</em>初始化一个文件夹并修改其 <em>_config.yml</em> 配置文件</li></ol><p><strong>2、下载hexo</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><strong>1、使用hexo搭建个人博客</strong></p><ol><li>使用<em>npm</em>下载<em>hexo</em></li><li>使用<em>hexo</em>初始化一个文件夹并修改其 <em>_config.yml</em> 配置文件</li></ol><p><strong>2、下载hexo</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli<span class="comment"># 使用npm下载hexo</span></span><br><span class="line">npm install hexo-deploy-git --save <span class="comment"># 下载hexo部署到git上的插件</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># hexo使用说明</span></span><br><span class="line">hexo clean <span class="comment"># 清楚hexo生成的数据</span></span><br><span class="line">hexo g == hexo genera<span class="comment"># 使用hexo将source/_post下的markdown文件生成静态页面</span></span><br><span class="line">hexo s == hexo serve<span class="comment"># 使用hexo将静态页面以localhost:4000开启本地服务</span></span><br><span class="line">hexo d == hexo deploy <span class="comment"># 将hexo生成的静态页面部署到git上去，这个功能需要一下配置</span></span><br></pre></td></tr></table></figure><p>_config.yml配置</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 第一处</span></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://gftz-hww.github.io</span><span class="comment"># 需要将该url修改为自己的git仓库</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line"><span class="comment"># 第二处</span></span><br><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/gftz-hww/gftz-hww.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span><span class="comment"># 选择上传的分支</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p><strong>3、选择使用主题</strong></p><p>修改_config.yml</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">pure</span></span><br></pre></td></tr></table></figure><p>主题下载：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/gaoryrt/hexo-theme-pln.git themes/pln<span class="comment"># 下载pln主题</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/cofess/hexo-theme-pure.git themes/pure<span class="comment"># 下载purez</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -176,9 +176,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
-    
     <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
+    
+    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -207,11 +207,11 @@
     
     <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
     
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
-    
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
     <category term="Typora" scheme="http://gftz-hww.github.io/tags/Typora/"/>
+    
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
