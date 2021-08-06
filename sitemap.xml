@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://gftz-hww.github.io/categories/index.html</loc>
+    <loc>http://gftz-hww.github.io/books/index.html</loc>
     
     <lastmod>2021-08-04</lastmod>
     
   </url>
   
   <url>
-    <loc>http://gftz-hww.github.io/books/index.html</loc>
+    <loc>http://gftz-hww.github.io/categories/index.html</loc>
     
     <lastmod>2021-08-04</lastmod>
     
@@ -144,7 +144,14 @@
   </url>
   
   <url>
-    <loc>http://gftz-hww.github.io/tags/Linux/</loc>
+    <loc>http://gftz-hww.github.io/tags/Windows/</loc>
+    <lastmod>2021-08-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gftz-hww.github.io/tags/Typora/</loc>
     <lastmod>2021-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -152,6 +159,13 @@
   
   <url>
     <loc>http://gftz-hww.github.io/tags/Vim/</loc>
+    <lastmod>2021-08-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gftz-hww.github.io/tags/Linux/</loc>
     <lastmod>2021-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -173,20 +187,6 @@
   
   <url>
     <loc>http://gftz-hww.github.io/tags/nodejs/</loc>
-    <lastmod>2021-08-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://gftz-hww.github.io/tags/Windows/</loc>
-    <lastmod>2021-08-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://gftz-hww.github.io/tags/Typora/</loc>
     <lastmod>2021-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
