@@ -44,13 +44,13 @@
   </entry>
   
   <entry>
-    <title>8-7日志报告</title>
-    <link href="http://gftz-hww.github.io/2021/08/06/2021-8-7/"/>
-    <id>http://gftz-hww.github.io/2021/08/06/2021-8-7/</id>
+    <title>8-8日志报告</title>
+    <link href="http://gftz-hww.github.io/2021/08/06/2021-8-8/"/>
+    <id>http://gftz-hww.github.io/2021/08/06/2021-8-8/</id>
     <published>2021-08-06T10:58:12.482Z</published>
-    <updated>2021-08-10T01:51:04.116Z</updated>
+    <updated>2021-08-10T01:54:01.553Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>1、注释</strong></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">单行注释</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">多行注释</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">文本注释</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><strong>1、注释</strong></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">单行注释</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">多行注释</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">文本注释</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure><p><strong>2、Windows下的快捷键</strong></p><table><thead><tr><th>按键组合</th><th>作用说明</th></tr></thead><tbody><tr><td>win+e</td><td>打开文件管理器</td></tr><tr><td>ctrl+shift+esc</td><td>打开任务管理器</td></tr><tr><td>shift+delete</td><td>删除文件（回收站找不到的那种）</td></tr><tr><td>alt+f4</td><td>关闭窗口</td></tr></tbody></table><p><strong>3、Windows命令</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 打开程序</span></span><br><span class="line">mspaint</span><br><span class="line">calc</span><br><span class="line">notepad</span><br><span class="line"><span class="comment"># 查看当前目录</span></span><br><span class="line">dir</span><br><span class="line"><span class="comment"># 清楚屏幕</span></span><br><span class="line">cls</span><br><span class="line"><span class="comment"># 文件操作</span></span><br><span class="line">md 目录名</span><br><span class="line">rd 目录名</span><br><span class="line"><span class="built_in">cd</span>&gt;文件名</span><br><span class="line">del&gt;文件名</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -64,41 +64,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Java" scheme="http://gftz-hww.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>8-6日志报告</title>
-    <link href="http://gftz-hww.github.io/2021/08/06/2021-8-6/"/>
-    <id>http://gftz-hww.github.io/2021/08/06/2021-8-6/</id>
-    <published>2021-08-06T07:34:35.907Z</published>
-    <updated>2021-08-06T07:50:08.042Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>1、Windows下的快捷键</strong></p><table><thead><tr><th>按键组合</th><th>作用说明</th></tr></thead><tbody><tr><td>win+e</td><td>打开文件管理器</td></tr><tr><td>ctrl+shift+esc</td><td>打开任务管理器</td></tr><tr><td>shift+delete</td><td>删除文件（回收站找不到的那种）</td></tr><tr><td>alt+f4</td><td>关闭窗口</td></tr></tbody></table><p><strong>2、Windows命令</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 打开程序</span></span><br><span class="line">mspaint</span><br><span class="line">calc</span><br><span class="line">notepad</span><br><span class="line"><span class="comment"># 查看当前目录</span></span><br><span class="line">dir</span><br><span class="line"><span class="comment"># 清楚屏幕</span></span><br><span class="line">cls</span><br><span class="line"><span class="comment"># 文件操作</span></span><br><span class="line">md 目录名</span><br><span class="line">rd 目录名</span><br><span class="line"><span class="built_in">cd</span>&gt;文件名</span><br><span class="line">del&gt;文件名</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;1、Windows下的快捷键&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;按键组合&lt;/th&gt;
-&lt;th&gt;作用说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;win+e&lt;/td&gt;
-&lt;td&gt;打开文件管理</summary>
-      
-    
-    
-    
-    <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
-    
-    
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
+    
+    <category term="Java" scheme="http://gftz-hww.github.io/tags/Java/"/>
     
   </entry>
   
@@ -123,9 +91,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
-    
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
+    
+    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -235,9 +203,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
-    
     <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
+    
+    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -262,9 +230,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
-    
     <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
+    
+    <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -289,15 +257,15 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
+    <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
     
     <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
-    
-    <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
     
     <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
     <category term="Typora" scheme="http://gftz-hww.github.io/tags/Typora/"/>
+    
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
@@ -323,13 +291,13 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
+    <category term="virtualbox" scheme="http://gftz-hww.github.io/tags/virtualbox/"/>
     
     <category term="opencv" scheme="http://gftz-hww.github.io/tags/opencv/"/>
     
-    <category term="virtualbox" scheme="http://gftz-hww.github.io/tags/virtualbox/"/>
-    
     <category term="树莓派" scheme="http://gftz-hww.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="ros" scheme="http://gftz-hww.github.io/tags/ros/"/>
     
   </entry>
   
