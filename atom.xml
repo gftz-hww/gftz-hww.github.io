@@ -91,9 +91,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
-    
     <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
+    
+    <category term="Windows" scheme="http://gftz-hww.github.io/tags/Windows/"/>
     
   </entry>
   
@@ -230,9 +230,9 @@
     <category term="日志报告" scheme="http://gftz-hww.github.io/categories/%E6%97%A5%E5%BF%97%E6%8A%A5%E5%91%8A/"/>
     
     
-    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
-    
     <category term="Linux" scheme="http://gftz-hww.github.io/tags/Linux/"/>
+    
+    <category term="Vim" scheme="http://gftz-hww.github.io/tags/Vim/"/>
     
   </entry>
   
